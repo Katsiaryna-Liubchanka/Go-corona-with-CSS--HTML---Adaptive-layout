@@ -1,0 +1,17 @@
+@media (max-width: 991.98px) {
+
+  .container {
+  max-width: 750px;
+  min-height: 80px;
+}
+
+.header-button {
+  flex: 0 0 170px;
+}
+
+li {
+  margin-right: 30px;
+}
+
+
+}

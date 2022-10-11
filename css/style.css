@@ -21,6 +21,7 @@ body {
 .container {
   max-width: 1087px;
   margin: 0px auto;
+  padding: 0px 15px;
 }
 
 main {
@@ -29,6 +30,17 @@ main {
 /*для прибивания footer*/
 
 /*header*/
+
+/*для прибивания header*/
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+/*для прибивания header*/
+
 .container {
   display: flex;
   align-items: center;
@@ -44,11 +56,6 @@ ul {
   justify-content: flex-end;
 }
 
-li {
-  padding-right: 40px;
-  transition: all 0.3s ease 0s;
-}
-
 li:hover {
   color: #6b5959;
 }
@@ -61,6 +68,8 @@ li {
   line-height: 12px;
   letter-spacing: 0.14em;
   color: black;
+  margin-right: 40px;
+  transition: all 0.3s ease 0s;
 }
 
 .header-button {

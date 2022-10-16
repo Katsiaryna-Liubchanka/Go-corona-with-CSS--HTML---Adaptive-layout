@@ -1,12 +1,29 @@
 html,
 body {
-height: 100%;
-line-height: 1;
+  height: 100%;
+  line-height: 1;
 }
 
 body {
   font-family: Rubik;
   font-style: 12px;
+  color: #616161;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  color: black;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
   color: #616161;
 }
 
@@ -27,6 +44,7 @@ body {
 main {
   flex: 1 1 auto;
 }
+
 /*для прибивания footer*/
 
 /*header*/
@@ -39,9 +57,10 @@ header {
   left: 0;
   z-index: 50;
 }
+
 /*для прибивания header*/
 
-.container {
+header .container {
   display: flex;
   align-items: center;
   min-height: 114px;
@@ -94,9 +113,73 @@ li {
 }
 
 .button:hover {
-  background-color: #EC5863;
+  background-color: #4285F4;
 }
 
 .button-blue {
   background-color: #4285F4;
+}
+
+.button-blue:hover {
+  background-color: #EC5863;
+}
+
+/*section get-started*/
+
+.get-started {
+  background-color: #FAFBFD;
+  padding: 153px 0 48px 0;
+}
+
+.get-started-content {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 60px;
+}
+
+.get-started-text {
+  max-width: 400px;
+}
+
+.get-started-text h1 {
+  margin: 87px 0 12px 0;
+}
+
+h1 .span-blue {
+  color: #4285F4;
+}
+
+h2 .span-red {
+  color: #EC5863;
+}
+
+.get-started-text p {
+  margin-bottom: 24px;
+}
+
+.get-started-video {
+  display: inline-block;
+}
+
+.get-started-video {
+  display: flex;
+  gap: 12px;
+}
+
+.get-started-video h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 126%;
+  letter-spacing: 0.08em;
+  color: #B0B0B0;
+}
+
+.get-started-video h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 126%;
+  letter-spacing: 0.08em;
+  color: black;
 }

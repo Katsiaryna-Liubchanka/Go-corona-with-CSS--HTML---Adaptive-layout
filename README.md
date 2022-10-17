@@ -2,4 +2,4 @@
 
 [original figma layout](https://www.figma.com/file/vljeivCkGNYBwLUuWsT9z1/Gocorna-Website?node-id=0%3A1)
 
-![layout screenshot](Desktop.png)
+![layout screenshot](desktop.png)

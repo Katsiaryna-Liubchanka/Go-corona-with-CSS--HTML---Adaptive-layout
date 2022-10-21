@@ -62,6 +62,7 @@ header {
 
 header .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   min-height: 114px;
 }
@@ -95,6 +96,7 @@ li {
   flex: 0 0 252px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .button {
@@ -122,6 +124,10 @@ li {
 
 .button-blue:hover {
   background-color: #EC5863;
+}
+
+.icon-menu {
+  display: none;
 }
 
 /*section get-started*/

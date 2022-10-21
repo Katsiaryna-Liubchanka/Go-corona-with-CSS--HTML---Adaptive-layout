@@ -4,6 +4,70 @@
     max-width: none;
   }
 
+/*menu burger*/
+  .icon-menu {
+    display: flex;
+    position: relative;
+    flex: 0 0 30px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+  }
+  
+  .icon-menu::before {
+    content: "";
+    background-color: black;
+    height: 2px;
+  }
+  
+  .icon-menu::after {
+    content: "";
+    background-color: black;
+    height: 2px;
+  }
+  
+  .icon-menu span {
+    background-color: black;
+    height: 2px;
+  }
+  /*menu burger*/
+
+  .header-logo {
+    position: relative;
+    z-index: 5;
+  }
+
+  .header-body {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    padding: 90px 15px 30px 15px;
+  }
+
+  .header-body:target {
+    left: 0;
+  }
+
+
+  header ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header li {
+    padding-top: 25px;
+  }
+
+  header a {
+    font-size: 20px;
+  }
+
+
   .get-started .container::before {
     display: none;
   }
@@ -31,3 +95,12 @@
   }
 
 }
+
+@media (max-width: 479.98px) {
+/*прячу часть рисунка в header*/
+  .header-logo {
+    flex: 0 0 40px;
+    overflow: hidden;
+  }
+}
+

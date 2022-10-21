@@ -128,21 +128,40 @@ li {
 
 .get-started {
   background-color: #FAFBFD;
-  padding: 153px 0 48px 0;
+}
+
+.get-started .container {
+
+  position: relative;
+  padding: 153px 15px 48px 15px;
+}
+
+.get-started .container::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  right: 267px;
+  top: 0;
+  transform: translate(100%, 0px);
+  background-color: #EC5863;
+  border-radius: 30px 0px 0px 30px;
 }
 
 .get-started-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom: 60px;
 }
 
+
 .get-started-text {
-  max-width: 400px;
+  max-width: 440px;
+  padding: 60px 20px 0 20px;
 }
 
 .get-started-text h1 {
-  margin: 87px 0 12px 0;
+  margin: 0 0 12px 0;
 }
 
 h1 .span-blue {
@@ -155,6 +174,11 @@ h2 .span-red {
 
 .get-started-text p {
   margin-bottom: 24px;
+}
+
+.get-started-image {
+  position: relative;
+  z-index: 2;
 }
 
 .get-started-video {

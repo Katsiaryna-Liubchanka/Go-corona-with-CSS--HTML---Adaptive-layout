@@ -13,5 +13,13 @@
     margin-right: 30px;
   }
 
+  .get-started .container::before {
+    right: 185px;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  .get-started-text {
+    max-width: none;
+  }
 
 }

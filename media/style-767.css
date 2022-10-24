@@ -97,6 +97,31 @@
     width: 100%;
   }
 
+  .stay-safe {
+    padding-top: 30px;
+  }
+
+  .stay-safe .container {
+    flex-direction: column-reverse;
+  }
+
+  .stay-safe-text {
+    margin: auto;
+    text-align: center;
+    padding-top: 0;
+    max-width: none;
+    padding-bottom: 30px;
+  }
+
+  .stay-safe-text h2 {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .item-1 {
+    top: 22px;
+    left: 27px;
+  }
 }
 
 @media (max-width: 479.98px) {

@@ -12,6 +12,10 @@
   li {
     margin-right: 30px;
   }
+  
+  .get-started-image img {
+    width: 100%;
+  }
 
   .get-started .container::before {
     right: 185px;
@@ -19,7 +23,12 @@
   }
 
   .get-started-text {
+    padding: 0;
     max-width: none;
+  }
+
+  .stay-safe-media {
+    padding-left: 0;
   }
 
 }

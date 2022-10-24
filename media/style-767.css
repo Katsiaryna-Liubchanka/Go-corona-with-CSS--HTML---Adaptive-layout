@@ -94,7 +94,7 @@
   }
 
   .get-started-image img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .stay-safe {
@@ -121,6 +121,10 @@
   .item-1 {
     top: 22px;
     left: 27px;
+  }
+  
+  .stay-safe-image {
+    width: 100%;
   }
 }
 

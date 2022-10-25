@@ -518,3 +518,16 @@ h6 {
   border-radius: 16px;
   transform: rotate(-30deg);
 }
+
+/* footer */
+footer {
+  padding: 45px 0;
+}
+
+footer .container {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+
+}
